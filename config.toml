@@ -1,0 +1,10 @@
+[base]
+defaultInterval=60
+
+[[api]]
+address="http://send.sms?phone=${phone}"
+method="GET"
+interval=30
+count=5
+countInterval=300
+
